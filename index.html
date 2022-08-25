@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Twitter</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined" rel="stylesheet" />
+
+      
+    <link 
+    rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" 
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <!-- sidebar -->
+
+    <div class="side_bar">
+        
+        <i class="fab fa-twitter"></i>
+        <div class="sidebar_option active">
+            <span class="material-icons">home</span>
+            <h2>Home</h2>
+        </div>
+        
+        <div class="sidebar_option">
+            <span class="material-icons">tag</span>
+            <h2>Explore</h2>
+        </div>
+        
+        <div class="sidebar_option">
+            <span class="material-icons">notifications</span>
+            <h2>Notification</h2>
+        </div>
+        
+        <div class="sidebar_option">
+            <span class="material-icons">mail_outline</span>
+            <h2>Messages</h2>
+        </div>
+        
+        <div class="sidebar_option">
+            <span class="material-icons">bookmark_border</span>
+            <h2>Bookmarks</h2>
+        </div>
+        
+        <div class="sidebar_option">
+            <span class="material-icons">list_alt</span>
+            <h2>Lists</h2>
+        </div>
+        
+        <div class="sidebar_option">
+            <span class="material-icons">perm_identity</span>
+            <h2>Profile</h2>
+        </div>
+
+        <div class="sidebar_option">
+            <span class="material-icons">more_horiz</span>
+            <h2>More</h2>
+        </div>
+        
+        <button class="tweet_button">Tweet</button>
+        
+        <div class="profile">
+                <img src="https://pbs.twimg.com/profile_images/1406144343992279042/6T5Vo_PC_400x400.jpg" alt="">
+                <ul> 
+                    <li class="name"> Anas</li>
+                    <li class="id">@AnasEP000</li>
+                </ul>
+                <span class="material-icons-outlined dotpro">
+                    more_horiz
+                    </span>
+        </div>
+        
+
+    </div>
+
+    <!-- feed -->
+    <div class="feed">
+        <!-- feed header -->
+        <div class="feedHeader">
+            <h2>Home</h2>
+            <span class="material-icons-outlined favorite">auto_awesome</span>
+        </div>
+        
+        <div class="tweetBox">
+            <form action="">
+                <div class="tweetboxInput">
+                    <img src="https://pbs.twimg.com/profile_images/1406144343992279042/6T5Vo_PC_400x400.jpg" alt="">
+                    <input type="text" placeholder="What's happening?">
+                </div>
+                <div class="tweetUpload">
+                    <span class="material-icons-outlined tweetIcons">image</span>
+                    <span class="material-icons-outlined tweetIcons">gif_box</span>
+                    <span class="material-icons-outlined tweetIcons">poll</span>
+                    <span class="material-icons-outlined tweetIcons">sentiment_satisfied_alt</span>
+                    <span class="material-icons-outlined tweetIcons">work_history</span>
+                    <span class="material-icons-outlined tweetIcons">pin_drop</span>
+                </div>
+                <button class="tweetBox_tweetButton">Tweet</button>
+            </form>
+        </div>
+        <!-- feed post -->
+        <div class="post">
+            
+                <div class="postAvatar">
+                    <img src="https://pbs.twimg.com/profile_images/1529956155937759233/Nyn1HZWF_400x400.jpg" alt="">
+                </div>
+                <div class="postBody">
+                    <div class="postHeader">
+                        <div class="postHeadertext">
+                            <h3>Elon Musk
+                            <span class="postHeadersS">
+                                <span class="material-icons posVari">verified</span>
+                                @elonmusk
+                            </span>
+                            </h3>
+                        </div>
+                        <div class="postDescr">
+                            <p>Mechazilla loads Starship on launchpad</p>
+                        </div>
+                    </div>
+                    <img src="https://pbs.twimg.com/media/Fa50-XdVEAECIVc?format=jpg&name=small" alt="">
+                    <div class="postFooter">
+                        <span class="material-icons-outlined">comment</span>
+                        <span class="material-icons">repeat</span>
+                        <span class="material-icons-outlined">favorite_border</span>
+                        <span class="material-icons-outlined">ios_share</span>
+                    </div>
+                </div>
+  
+        </div>
+
+        <div class="post">
+            
+            <div class="postAvatar">
+                <img src="https://pbs.twimg.com/profile_images/1553515436305797121/X-FC0BhU_400x400.jpg" alt="">
+            </div>
+            <div class="postBody">
+                <div class="postHeader">
+                    <div class="postHeadertext">
+                        <h3>Paul Bronks
+                        <span class="postHeadersS">
+                            <span class="material-icons posVari">verified</span>
+                            @SlenderSherbet
+                        </span>
+                        </h3>
+                    </div>
+                    <div class="postDescr">
+                        <p>"There's no time to explain, just get in the damn car, Henry"</p>
+                    </div>
+                </div>
+                <img src="https://pbs.twimg.com/media/FazCZAxXgAIGHIC?format=jpg&name=small" alt="">
+                <div class="postFooter">
+                    <span class="material-icons-outlined">comment</span>
+                    <span class="material-icons">repeat</span>
+                    <span class="material-icons-outlined">favorite_border</span>
+                    <span class="material-icons-outlined">ios_share</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="widgets">
+        <div class="widgetsInput">
+            <span class="material-icons searchIcon">search</span>
+            <input type="text" placeholder="Search Twitter">
+        </div>
+        <div class="widgetsContainer">
+            <h2>What's happening?</h2>
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Sunsets don&#39;t get much better than this one over <a href="https://twitter.com/GrandTetonNPS?ref_src=twsrc%5Etfw">@GrandTetonNPS</a>. <a href="https://twitter.com/hashtag/nature?src=hash&amp;ref_src=twsrc%5Etfw">#nature</a> <a href="https://twitter.com/hashtag/sunset?src=hash&amp;ref_src=twsrc%5Etfw">#sunset</a> <a href="http://t.co/YuKy2rcjyU">pic.twitter.com/YuKy2rcjyU</a></p>&mdash; US Department of the Interior (@Interior) <a href="https://twitter.com/Interior/status/463440424141459456?ref_src=twsrc%5Etfw">May 5, 2014</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </div>
+
+</body>
+</html>
